@@ -5,7 +5,8 @@ $$
 \text{Win Ratio} = \frac{(\text{Runs For})^{k}}{(\text{Runs For})^{k} + (\text{Runs Against})^{k}}
 $$
 ```
- with the k-value of 1.83, it was soon adapted into baseball (k = 13.91) as a valuable tool for judging the expected winning percentage of a certain team, and thus, yielding whether a certain team was over or underperforming. This project seeks to adapt the Pythagorean Expectation to the Premier League, fitting a new equation using points-share instead of win ratio to fit European football's unique system of 3 point wins, 1 point draws, and 0 point losses. 
+
+with the k-value of 1.83, it was soon adapted into baseball (k = 13.91) as a valuable tool for judging the expected winning percentage of a certain team, and thus, yielding whether a certain team was over or underperforming. This project seeks to adapt the Pythagorean Expectation to the Premier League, fitting a new equation using points-share instead of win ratio to fit European football's unique system of 3 point wins, 1 point draws, and 0 point losses. 
 
 ## Rationale
 Using similar existing calculations as used in North American sport with goals for and goals against substituted for runs for and runs against, it is possible to find the unique k value for the Premier League to find a rough estimate of the amount of points a team should be achieving each season. 
